@@ -6,7 +6,11 @@
     <div class="relative z-10 flex flex-col w-full">
       <TheNavbar />
       <HeroSection />
-      <MonitoreoVisual
+      
+      <ClientOnly>
+        <MonitoreoVisual />
+      </ClientOnly>
+      
       <TecnologiaSection />
     </div>
 
