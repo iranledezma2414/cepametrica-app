@@ -7,10 +7,6 @@
       <TheNavbar />
       <HeroSection />
       
-      <ClientOnly>
-        <MonitoreoVisual />
-      </ClientOnly>
-      
       <TecnologiaSection />
     </div>
 
